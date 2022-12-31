@@ -1,10 +1,7 @@
 from requests import Request, Session
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
-import os
 import creds
-
-
 
     
 url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
