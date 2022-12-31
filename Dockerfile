@@ -5,4 +5,4 @@ RUN mkdir /dir && \
 ADD app.py /dir
 ADD creds.py /dir
 WORKDIR /dir
-CMD [ "python", "app.py"]
+CMD [ "python", "app.py"] 
